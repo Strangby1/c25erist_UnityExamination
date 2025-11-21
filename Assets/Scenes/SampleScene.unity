@@ -5400,7 +5400,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654123052}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -6657,15 +6657,15 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 619394802}
-  - {fileID: 654123053}
   - {fileID: 1935448785}
-  - {fileID: 750107860}
-  - {fileID: 1585138770}
   - {fileID: 768200721}
   - {fileID: 1379147581}
+  - {fileID: 619394802}
+  - {fileID: 654123053}
+  - {fileID: 1344060028}
   - {fileID: 300633676}
+  - {fileID: 750107860}
+  - {fileID: 1585138770}
   - {fileID: 7408062933048344159}
   - {fileID: 863138450}
   - {fileID: 519420032}
-  - {fileID: 1344060028}
