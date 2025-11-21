@@ -5207,7 +5207,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1, y: -1.01, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5385,7 +5385,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -5400,8 +5400,8 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654123052}
-  m_BodyType: 2
-  m_Simulated: 1
+  m_BodyType: 0
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -5449,7 +5449,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -5469,8 +5469,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 10
   jumpForce: 10
-  spriteRenderer: {fileID: 654123055}
-  animator: {fileID: 654123054}
+  spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!61 &654123061
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6444,7 +6444,7 @@ MonoBehaviour:
   nextButton: {fileID: 1341043017}
   dialogue:
   - Move with arrow keys
-  - Jump with space
+  - 
   - Goodluck
   onStartDialogue:
     m_PersistentCalls:
@@ -6661,11 +6661,11 @@ SceneRoots:
   - {fileID: 768200721}
   - {fileID: 1379147581}
   - {fileID: 619394802}
+  - {fileID: 750107860}
+  - {fileID: 519420032}
   - {fileID: 654123053}
   - {fileID: 1344060028}
   - {fileID: 300633676}
-  - {fileID: 750107860}
-  - {fileID: 1585138770}
   - {fileID: 7408062933048344159}
   - {fileID: 863138450}
-  - {fileID: 519420032}
+  - {fileID: 1585138770}
